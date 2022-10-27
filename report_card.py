@@ -1,10 +1,13 @@
+
 last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97], ["architecture", 65]]
 
-# Your code below: 
-subjects  ["physics", "calculus", "poetry", "history"]
+#create a list with all the subjects 
+subjects = ["physics", "calculus", "poetry", "history"]
 
+#create a list with all the grades
 grades = [98, 97, 85, 88]
 
+#create a two dimensional list that combines subjects and grades.
 gradebook = [["physics", 98], ["calculus", 97], ["poetry", 85], ["history", 88]]
 
 print(gradebook)
@@ -19,6 +22,7 @@ gradebook[2].append("Pass")
 
 print (gradebook)
 
+#create a new list that combines last semester gradebook with the current semester gradebook.
 full_gradebook = last_semester_gradebook + gradebook
 
 print(full_gradebook)
