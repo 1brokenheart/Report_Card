@@ -20,7 +20,7 @@ gradebook[5][1] = 98
 gradebook[2].remove(85) 
 gradebook[2].append("Pass") 
 
-print (gradebook)
+print(gradebook)
 
 #create a new list that combines last semester gradebook with the current semester gradebook.
 full_gradebook = last_semester_gradebook + gradebook
